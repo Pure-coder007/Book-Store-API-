@@ -2,14 +2,21 @@ import mysql.connector
 from mysql.connector import Error
 
 
+# config = {
+#     'user' : 'root',
+#     'password' : 'language007',
+#     'host' : 'localhost',
+#     'port' : '3306',
+#     'database' : 'book_store_api'
+# }
+
 config = {
-    'user' : 'root',
+    'user' : 'ukah007',
     'password' : 'language007',
-    'host' : 'localhost',
+    'host' : 'db4free.net',
     'port' : '3306',
     'database' : 'book_store_api'
 }
-
 
 def setup_database():
     config['database'] = None
